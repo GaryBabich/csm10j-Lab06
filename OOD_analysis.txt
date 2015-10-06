@@ -1,0 +1,24 @@
+Professional
+	:members:
+		String Name
+		Vector<String> qualifications
+	:methods:
+		String getName()
+		String[] getQualifications()
+		void addQualification(String)
+		boolean hasQualification(String)
+Company
+	:members:
+		String compName
+		Vector<String> needs
+	:methods:
+		String getCompName		
+		void setCompName(String userEntry)
+		void setNeeds(String[] arrEntries)
+JobPossiblities
+	:members:
+		dataType memberName1
+		dataType memberName2
+	:methods:
+		returnType methodName1(formalParamList...)
+		returnType methodName1(formalParamList...)
